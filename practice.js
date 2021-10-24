@@ -33,3 +33,12 @@ function myFunction(a, b) {
     let c = 30;
     return a * b * c;
 }
+
+//JavaScript Arrays are used to store multiple values in a single variable
+let arrOfString = ["Banana", "Orange", "Apple"];
+arrOfString.push("Lemon");
+console.log(arrOfString);
+console.log(arrOfString.sort());
+let arrOfNum = [40, 1, 5, 25,];
+arrOfNum.push(21);
+console.log(arrOfNum);
