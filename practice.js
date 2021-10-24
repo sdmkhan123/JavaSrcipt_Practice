@@ -58,3 +58,25 @@ console.log(Math.floor(Math.random() * 10));
 console.log(Math.floor(Math.random() * 100));
 //Returns a random integer from 1 to 10:
 console.log(Math.floor(Math.random() * 10) + 1);
+
+//Conditional Statements
+var boolValue = true;
+if (boolValue == true){
+    console.log("Conditional Statements is ture");
+}
+
+let age = 20;
+if (age < 18) {
+    console.log("Conditional Statements is ture");
+} else{
+    console.log("Conditional Statements is false");
+}
+
+let time = 20;
+if (time < 10) {
+    console.log("Good morning");
+} else if (time < 20) {
+    console.log("Good day");
+} else {
+    console.log("Good evening");
+}
