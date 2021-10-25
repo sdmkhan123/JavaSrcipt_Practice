@@ -94,3 +94,11 @@ switch (caseNum) {
         console.log("csae default called");
         break;
 }
+//Loops stmt
+for (let i = 0; i <= 10; i++){
+    console.log("for loop iteration num " + i);
+}
+let numbers = [45, 4, 9, 16, 25];
+for (let x in numbers) {
+    console.log(numbers[x]);
+}
