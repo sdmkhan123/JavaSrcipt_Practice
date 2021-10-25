@@ -80,3 +80,17 @@ if (time < 10) {
 } else {
     console.log("Good evening");
 }
+
+//Switch case stmt
+let caseNum = 1;
+switch (caseNum) {
+    case 0:
+        console.log("csae zero called");
+        break;
+    case 1:
+        console.log("csae one called");
+        break;
+    default:
+        console.log("csae default called");
+        break;
+}
